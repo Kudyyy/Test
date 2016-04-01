@@ -26,13 +26,13 @@ W ten sposób możemy otrzymać każdą kolejną liczb w taki sposób:
 	.
 	.
 
-Dodawanie dwóch liczb m i n polega na wykonaniu funkcji f m+n razy
- <a href="https://www.codecogs.com/eqnedit.php?latex=f^(^m^&plus;^n^)=f^m(f^n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f^(^m^&plus;^n^)=f^m(f^n)" title="f^(^m^+^n^)=f^m(f^n)" /></a>
+Dodawanie dwóch liczb m i n polega na wykonaniu funkcji f m+n razy  
+![f^(m+n)=f^m(f^n)](https://latex.codecogs.com/gif.latex?f^(^m^&plus;^n^)=f^m(f^n))
 
 	add		:= m n f x = m f ( n f x ) 	lambda m: lambda n: lambda f: lambda x: m(f)(n(f)(x))
 
 Mnożenie dwóch liczb m i n polega na wykonaniu funkcji f m\*n razy  
-<a href="https://www.codecogs.com/eqnedit.php?latex=f^(^m^*^n^)=(f^n)^m" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f^(^m^*^n^)=(f^n)^m" title="f^(^m^*^n^)=(f^n)^m" /></a>
+![f^(m\*n)=(f^n)^m](https://latex.codecogs.com/gif.latex?f^(^m^*^n^)=(f^n)^m)
 
 	mult	:= m n f x = m ( n f ) x	lambda m: lambda n: lambda f: lambda x: m(n(f))(x)
 
