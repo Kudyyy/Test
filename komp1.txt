@@ -1,3 +1,4 @@
 Komp1.txt
 
 Daniel
+fix
